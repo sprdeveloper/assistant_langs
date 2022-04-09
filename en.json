@@ -1,0 +1,183 @@
+{
+    "name": "Assistant",
+    "osnovnie": {
+        "buy": "Buy",
+        "otmena": "Cancel",
+        "zaprosil": "Requested:",
+        "start": "write \"s!start\" to use this command",
+        "help": "To find out all the commands of the bot, write `s!help`",
+        "build": "in development",
+        "setLang": "You have successfully changed the language",
+        "CoinsTake": "Buy with coins"
+    },
+    "server": {
+        "Title": "Server Information:",
+        "TitleGuild": "Community:",
+        "Members": "Members:",
+        "Description": "Community Description:",
+        "ID": "Community ID:",
+        "JoinUser": "Joined:",
+        "AdminUserServer": "Community Admin:",
+        "Lang": "Server language:",
+        "RulersChannel": "Channel with rules:",
+        "LevelSecurity": "Security level:",
+        "Vesion": "Version:",
+        "explicitContentFilter": {
+            "MEDIUM": "Medium",
+            "NONE": "No",
+            "LOW": "Shallow",
+            "HIGH": "High",
+            "VERY_HIGH": "Very High"
+        },
+        "create": "Created:",
+        "desc_none": "Not specified",
+        "txtChannel":"Text channels:",
+        "voiceChannel": "Voice channels:",
+        "afk": "AFK channel"
+
+    },
+    "embed": {
+        "footer": "Requested:"
+    },
+    "profile": {
+        "title": "Profile Information",
+        "CreationAccount": "Account Creation date:",
+        "IDProfile": "Profile ID:",
+        "money": "Coins:",
+        "donate": "Started:",
+        "exp": "Experience:",
+        "lvl": "Level:",
+        "status": "Status:",
+        "gift": "Gifts:",
+        "bank": "Bank:",
+        "commis": "Commission for transfers:",
+        "credit_card": "Bank card:",
+        "status_cic": {
+            "online": "Online",
+            "idle": "Gone",
+            "offline": "Offline",
+            "dnd": "Do not disturb"
+        },
+        "cardnumber_none": "no card",
+        "sa_buy": "purchased",
+        "sa_nobuy": "Not purchased"
+    },
+    "help": {
+        "***${config.emoji.spr} All bot commands \"${config.bot.name }\" in the update ${pk.version} :***": ""
+    },
+    "botlists": {
+        "desc": "Where can you find me:"
+    },
+    "statistics": {
+        "economy": "Economy",
+        "entertainment": "Entertaining",
+        "useful": "Useful",
+        "moderation": "Moderation",
+        "title": "Statistics of all teams"
+    },
+    "translate": {
+        "nomember": "Specify the user who needs to translate coins",
+        "args5000": "You can only translate 5000 coins at most",
+        "argsne5000": "No, that won't do... Specify exactly the number!",
+        "argsmen": "You have fewer coins than you want to transfer",
+        "colichcoins": "Specify the number of coins to be transferred",
+        "success": "The translation has been successfully made! You have transferred to the user "
+    },
+    "donate": {
+        "args0": "We are changing and you are changing too...\n We present you a Subscription that will be waiting for you, so to speak, the reward\n\nWho includes a subscription:\n ・ Access to premium teams\n - Access to statistics\n ・ Private chats on the official SPR server\n ・ Doubled coins and experience \n\n To buy a subscription, write ・ s!donate [premium,plus]",
+        "premium": "```fix\nSPR Premium```\n・Access to premium teams\n・The commission when transferring coins is 1%\n・Doubled experience\n・Doubled coins\n・+ 3500 coins\n・Custom role",
+        "btn_premium": {
+            "success": "You have successfully purchased SPR Premium!Enjoy new features and new commands",
+            "otmena": "Cancellation of the purchase of SPR Premium!",
+            "err_1": "You don't have enough funds! You have ${res.rows[0][\"money\"]} and it should be 10000"
+        },
+        "plus": "```fix SPR Plus```\n・Access to premium teams\n・The commission when transferring coins is 3% +\n・Doubled experience\n・Doubled coins\n・+ 1500 coins",
+        "btn_plus": {
+            "err_1": "You don't have enough funds! You have ${res.rows[0][\"money\"]} and it should be 10000",
+            "success": "You have successfully bought SPR Plus!Enjoy new features and new teams"
+        }
+    },
+    "card": {
+        "wait": "Wait...",
+        "successful_buycard": "the purchase was successful",
+        "err_nomoney": "you do not have enough funds to purchase a bank card",
+        "card_sprgold": "SPR Card",
+        "eDescript": " ```fix\nSPR Card```\n・Transfer up to 15,000 coins\n・The commission for the transfer of coins is 1% (if there is platinum)\n・+ 50 coins (test account)\n",
+        "info": {
+            "usercard": "User card:",
+            "card": "Your card:",
+            "card_id": "Card number:",
+            "bill": "Contract number:",
+            "limdec": "Expiration date:",
+            "balance": "Balance:",
+            "err_nocard": "You don't have a card at the moment!\n To purchase, write `s!card buy` "
+        },
+        "buy": {
+            "price": "Price",
+            "waluet": "coins",
+            "Srok": "Term",
+            "SrokStr": "Months",
+            "SrokStr1": "Month",
+            "rubles": "Rubles"
+        },
+        "otmena": "Cancellation of card purchase!"
+    },
+    "balance": {
+        "coins": "Coins:",
+        "don": "Started"
+    },
+    "coinflip": {
+
+    },
+    "clear": {
+        "permision": "Sorry, but you don't have rights!",
+        "maxmess": "Specify the number of messages to delete (max. 100 messages)",
+        "max100": "Maximum 100 messages",
+        "delete": "Deleted messages"
+
+    },
+    "money": {
+        "title": "What are Coins in",
+        "description": "Coins are the currency inside the bot ${config.bot.name }\n The given currency is earned very easily:\nIf you want to earn it, just write to the chat.\n For every message you receive ${config.price.money} coins.\n Premium-users get twice as much - ${config.price.money_premium} coins"
+    },
+    "lang": {
+        "title": "Language selection for the bot on this server",
+        "description": "Our bot supports 4 languages, these are: \uD83C\uDDF7\uD83C\uDDFA,\uD83C\uDDFA\uD83C\uDDF8,\uD83C\uDDF5\uD83C\uDDF1,\uD83C\uDDEF\uD83C\uDDF5\n To change the language, click on the button below or cancel"
+    },
+    "ip": {
+        "error": {
+            "desc": "\uD83C\uDF0D Error"
+        },
+        "title": "> Domain information:",
+        "description": "\\n:earth_africa: Continent: \\`${continentStr}\\`\\n:clock10:Timezone: \\`${timezoneStr}\\`\\n:triangular_flag_on_post: Country: \\`${countryStr}\\`\\n\\n:computer: Provider: \\`${ispStr}\\`\\n:computer: Domain: \\`${ipStr}\\`\\n:computer:IP Address: \\`${ipStr}\\`\\n\\n:computer:Hosting: \\`${hostingStr}\\`\\n:man_detective:Proxy: \\`${proxyStr}\\`\\n"
+    },
+    "botinfo": {
+        "name": "Bot name:",
+        "version": "Version:",
+        "developers": "Developers:",
+        "autors": "Author:",
+        "uptime": "Uptime:",
+        "mem": "RAM used:",
+        "ping": "Delay:",
+        "Title": "Bot information"
+    },
+    "bank": {
+        "desc": "What is a bank?A bank is a place where your money is stored.\n To use the bank, you need to buy a card \n t.k. your card's Personal Account is linked to the bank \n\nS with each level, your allowable account increases\nexample: \n you have level 4\n4 * 10000 = 40000 - this is your maximum allowable balance in the bank",
+        "info": {
+            "bill": "Personal account:",
+            "balance_bank": "Maximum bank balance:",
+            "bitcoin": "Bitcoins:",
+            "akcii": "Shares:",
+            "card": "Card:",
+            "balance_card": "Card balance:"
+        }
+    },
+    "start": {
+        "welcome": "hello! Welcome to Assistant.",
+        "db": "You are already in the Bot Database!"
+    },
+    "prefix": {
+        "desc": "You have successfully changed the prefix to",
+        "err_1": "Specify which prefix you want to change"
+    }
+}
